@@ -19,7 +19,7 @@ const {
 } = require("./env-config");
 
 const app = express();
-
+// howdy
 app.use(checkUrl()); // Used to normalize URL in Vercel
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
