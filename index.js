@@ -9,11 +9,11 @@ const { auth } = require("express-openid-connect");
 
 const {
   checkUrl,
-  APP_URL = https://test-tolsonrealty.us.auth0.com, // Public URL for this app
+  APP_URL = "https://test-tolsonrealty.us.auth0.com", // Public URL for this app
   API_URL, // URL for Expenses API
-  ISSUER_BASE_URL = https:test-tolsonrealty.us.auth0.com, // Auth0 Tenant Url
-  CLIENT_ID = yy5OG9fIurvigqvwZPZz0RWqfWMjBYDX, // Auth0 Web App Client
-  CLIENT_SECRET = YFD7wswBmr2y6VArIkJSWXAqyMVs7XBrIXXgR3VnQDYUrEcsIo_lPIsXnttB7fAV, // Auth0 Web App CLient Secret
+  ISSUER_BASE_URL = "https:test-tolsonrealty.us.auth0.com", // Auth0 Tenant Url
+  CLIENT_ID = "yy5OG9fIurvigqvwZPZz0RWqfWMjBYDX", // Auth0 Web App Client
+  CLIENT_SECRET = "YFD7wswBmr2y6VArIkJSWXAqyMVs7XBrIXXgR3VnQDYUrEcsIo_lPIsXnttB7fAV", // Auth0 Web App CLient Secret
   SESSION_SECRET, // Cookie Encryption Key
   PORT,
 } = require("./env-config");
